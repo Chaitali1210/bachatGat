@@ -142,6 +142,7 @@ const AdminPanel = () => {
                     <input
                         type="number"
                         name="mobile"
+                        class="no-spinner" 
                         placeholder="Mobile Number"
                         value={crpDetails.mobile}
                         onChange={handleInputChange}
